@@ -1,0 +1,3 @@
+﻿  pb4.cpp
+C:\Users\40771\source\repos\AG-lab2-pb4\AG-lab2-pb4\pb4.cpp(10,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  AG-lab2-pb4.vcxproj -> C:\Users\40771\source\repos\AG-lab2-pb4\x64\Debug\AG-lab2-pb4.exe

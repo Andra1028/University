@@ -1,0 +1,3 @@
+﻿  Multime.cpp
+C:\Users\40771\source\repos\SDA-lab1-multime\SDA-lab1-multime\Multime.cpp(83): warning C4715: 'Multime::sterge': not all control paths return a value
+  SDA-lab1-multime.vcxproj -> C:\Users\40771\source\repos\SDA-lab1-multime\x64\Debug\SDA-lab1-multime.exe

@@ -1,0 +1,3 @@
+﻿  TestExtins.cpp
+C:\Users\40771\source\repos\SDA_lab7\SDA_lab7\TestExtins.cpp(209,20): warning C4101: 'e': unreferenced local variable
+  SDA_lab7.vcxproj -> C:\Users\40771\source\repos\SDA_lab7\x64\Debug\SDA_lab7.exe

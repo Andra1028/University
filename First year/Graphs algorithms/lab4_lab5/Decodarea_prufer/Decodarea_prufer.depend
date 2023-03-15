@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1653494979 source:c:\users\40771\onedrive\desktop\facultate\grafuri\algoritmi_test\decodarea_prufer\main.cpp
+	<iostream>
+	<fstream>
+	<map>
+	<vector>
+	<queue>
+

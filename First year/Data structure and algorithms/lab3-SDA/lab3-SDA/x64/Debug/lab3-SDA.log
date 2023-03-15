@@ -1,0 +1,5 @@
+﻿  LI.cpp
+C:\Users\40771\source\repos\lab3-SDA\lab3-SDA\LI.cpp(62): warning C4715: 'LI::element': not all control paths return a value
+C:\Users\40771\source\repos\lab3-SDA\lab3-SDA\LI.cpp(82): warning C4715: 'LI::modifica': not all control paths return a value
+C:\Users\40771\source\repos\lab3-SDA\lab3-SDA\LI.cpp(177): warning C4715: 'LI::sterge': not all control paths return a value
+  lab3-SDA.vcxproj -> C:\Users\40771\source\repos\lab3-SDA\x64\Debug\lab3-SDA.exe

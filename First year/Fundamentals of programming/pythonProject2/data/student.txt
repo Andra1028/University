@@ -1,0 +1,14 @@
+3
+maria
+2
+ariana
+1
+ana
+8
+Paul
+9
+Marcel
+6
+Dana
+4
+Cosmin

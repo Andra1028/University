@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1653637538 source:c:\users\40771\onedrive\desktop\facultate\grafuri\algoritmi_test\arbore_minim_acoperire_kruskal_2\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<fstream>
+
