@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurant.controller.TableController">
+   <children>
+      <Text layoutX="258.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Antreuri" />
+      <Text layoutX="14.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feluri principale" />
+      <Text layoutX="31.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deserturi" />
+      <TableView fx:id="antreuTable" layoutX="151.0" layoutY="84.0" prefHeight="81.0" prefWidth="383.0">
+        <columns>
+          <TableColumn fx:id="antreuItemColumn" prefWidth="190.3333740234375" text="item" />
+          <TableColumn fx:id="antreuPriceColumn" prefWidth="111.33331298828125" text="price" />
+            <TableColumn fx:id="antreuCurrencyColumn" prefWidth="82.66668701171875" />
+            <TableColumn prefWidth="190.3333740234375" text="C1" />
+        </columns>
+      </TableView>
+      <TableView fx:id="desertTable" layoutX="151.0" layoutY="273.0" prefHeight="81.0" prefWidth="383.0">
+         <columns>
+            <TableColumn fx:id="desertItemColumn" prefWidth="190.3333740234375" text="item" />
+            <TableColumn fx:id="desertPriceColumn" prefWidth="112.66668701171875" text="price" />
+            <TableColumn fx:id="desertCurrencyColumn" prefWidth="81.33331298828125" />
+            <TableColumn prefWidth="190.3333740234375" text="C1" />
+         </columns>
+      </TableView>
+      <TableView fx:id="principalTable" layoutX="151.0" layoutY="178.0" prefHeight="81.0" prefWidth="383.0">
+         <columns>
+            <TableColumn fx:id="principalItemColumn" prefWidth="190.3333740234375" text="item" />
+            <TableColumn fx:id="principalPriceColumn" prefWidth="111.33331298828125" text="price" />
+            <TableColumn fx:id="principalCurrencyColumn" prefWidth="82.66668701171875" />
+            <TableColumn prefWidth="190.3333740234375" text="C1" />
+         </columns>
+      </TableView>
+      <Button fx:id="orderButton" layoutX="482.0" layoutY="33.0" mnemonicParsing="false" onAction="#handleOrder" text="order" />
+   </children>
+</AnchorPane>
