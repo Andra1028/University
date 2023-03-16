@@ -1,0 +1,50 @@
+delMember(_, [], []).
+delMember(X, [X|Xs], Y) :-
+    delMember(X, Xs, Y).
+delMember(X, [T|Xs], [T|Y]) :-
+    dif(X, T),
+    delMember(X, Xs, Y).
+
+%Sa se scrie un predicat care transforma o lista intr-o multime, in
+%ordinea primei aparitii. Exemplu: [1,2,3,1,2] e transformat in [1,2,3].
+%multime(L:list, R:list)
+%L: lista initiala cu elemente
+%R: lista rezultat care devine multime
+%model de flux (i, i), (i, o)
+
+multime([], []):-!.
+multime([H|T], [H|M]):-
+    delMember(H, T, S),
+    !,
+    multime(S, M).
+
+
+% Sa se scrie o functie care descompune o lista de numere intr-o lista de
+% forma [ lista-de-numere-pare lista-de-numere-impare]
+
+%identitate(X: element, Y: element)
+%verifica daca X si Y sunt identice
+%model de flux (i,i), (i,o) sau (o,i)
+
+identitate(X,X).
+
+%pareImpare(L: lista, X: lista, Pare: integer, Impare: integer)
+%L - lista pe care o partitionam
+%X - lista rezultat care contine 2 subliste
+%Pare - numarul de numere pare din L
+%Impare - numarul de elemente impare din L
+%model de flux(i,o,o,o)
+% formeaza 2 liste, una cu elemente pare iar alta cu elemente impare
+%formeaza o lista care contine cele 2 liste nou formate
+
+
+/*pareImpare(L1,X,Pare,Impare):-pareImpare(L1,L21,L22,Pare,Impare),
+    identitate(X1,[L22|[]]),
+    identitate(X,[L21|X1]).*/
+pareImpare([],[],[],_,_).
+pareImpare([Cap|Coada],[Cap|L1],L2,Pare,Impare):-Cap mod 2 =:= 0,
+    pareImpare(Coada,L1,L2,Pare1,Impare),
+    Pare is Pare1 +1,!.
+pareImpare([Cap|Coada],L1,[Cap|L2],Pare,Impare):-Cap mod 2 =:= 1,
+    pareImpare(Coada,L1,L2,Pare,Impare1),
+    Impare is Impare1 +1.

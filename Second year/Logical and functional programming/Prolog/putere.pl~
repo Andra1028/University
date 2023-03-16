@@ -1,0 +1,5 @@
+%putere1(X,N,P)
+
+putere1(_,0,1):-!.
+putere1(X,1,X):-!.
+putere1(X,N,P):-N1 is N-1,putere1(X,N1,P1), P is P1*X.

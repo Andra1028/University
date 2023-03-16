@@ -1,0 +1,12 @@
+;nimic
+
+(cond 
+                ((atom l)  (list l))
+                (t 
+                    (apply 'append(mapcar #'
+                         (
+                             lambda (x) (inlocuire a e x)
+                         )l
+                    ))
+                 )
+            )

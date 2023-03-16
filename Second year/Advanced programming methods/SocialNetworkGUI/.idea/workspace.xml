@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="441d24b5-2123-4a4f-959c-a98755585813" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Icxrz8SkkN2JLEJSeFONV7L9mm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/40771/IdeaProjects/lab8bonus&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\40771\IdeaProjects\SocialNetworkGUI\src\main\java\com\example\socialnetworkgui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.socialnetworkgui" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="441d24b5-2123-4a4f-959c-a98755585813" name="Changes" comment="" />
+      <created>1670494878688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670494878688</updated>
+      <workItem from="1670494879982" duration="3679000" />
+      <workItem from="1670499247282" duration="1679000" />
+      <workItem from="1670503269694" duration="331000" />
+      <workItem from="1670503787046" duration="2919000" />
+      <workItem from="1670506721092" duration="309000" />
+      <workItem from="1670507047560" duration="1319000" />
+      <workItem from="1670573969876" duration="3341000" />
+      <workItem from="1670577328702" duration="1902000" />
+      <workItem from="1670581130082" duration="5110000" />
+      <workItem from="1670593444958" duration="223000" />
+      <workItem from="1670921030279" duration="3229000" />
+      <workItem from="1670936763776" duration="5163000" />
+      <workItem from="1670947303580" duration="11766000" />
+      <workItem from="1670960711256" duration="824000" />
+      <workItem from="1671041071320" duration="4329000" />
+      <workItem from="1671046504264" duration="2548000" />
+      <workItem from="1671084364851" duration="5764000" />
+      <workItem from="1671092927571" duration="2602000" />
+      <workItem from="1671108555446" duration="1268000" />
+      <workItem from="1671126028156" duration="5000" />
+      <workItem from="1671452698856" duration="1969000" />
+      <workItem from="1672665989872" duration="13573000" />
+      <workItem from="1672757224590" duration="5478000" />
+      <workItem from="1672763172025" duration="1655000" />
+      <workItem from="1672765016458" duration="305000" />
+      <workItem from="1673271169022" duration="4062000" />
+      <workItem from="1673866598495" duration="28000" />
+      <workItem from="1674216721185" duration="12000" />
+      <workItem from="1675765247789" duration="14172000" />
+      <workItem from="1675865344510" duration="7385000" />
+      <workItem from="1675956630917" duration="1945000" />
+      <workItem from="1676016234460" duration="2912000" />
+      <workItem from="1678284471580" duration="2157000" />
+      <workItem from="1678699364856" duration="9000" />
+      <workItem from="1678719540980" duration="618000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

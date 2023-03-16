@@ -1,0 +1,13 @@
+comb([H|_],1,[H]).
+comb([_|T],K,C):-comb(T,K,C).
+comb([H|T],K,[H|C]):-K>1,K1 is K-1,comb(T,K1,C).
+
+suma([],0):-!.
+suma([H], H):-!.
+suma([H|T],S):-suma(T, S1),S is (S1+H).
+
+verif_par(S):-0 is (S mod 2).
+
+conditie(L,K,R):-comb(L, K, R),suma(R,S),verif_par(S).
+
+main(L, R):-findall(C, conditie(L,C),R).

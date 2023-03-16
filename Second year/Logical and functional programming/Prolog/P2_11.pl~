@@ -1,0 +1,6 @@
+%Se da o lista de numere intregi. Se cere sa se scrie de 2 ori in lista
+% fiecare numar prim.
+
+prime(X,_):-X>1,!.
+prime(X,_):-X>2,1 is X mod 2,!.
+prime(X,E):-E>X,1 is X mod E,!,prime(X,D),D is E+2.

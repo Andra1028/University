@@ -1,0 +1,31 @@
+;NR SUBLISTE CARE AU CA PRIM ATOM UN NR IMPAR
+
+;pastrez doar atomi numerici
+(defun linearizeaza(l)
+    (cond  
+        ((numberp l) (list l))
+        ((atom l) nil)
+        (t (apply 'append(mapcar #'linearizeaza l)))
+    )
+)
+
+(defun verifica(l)
+    (cond  
+        ((eq(mod (car (linearizeaza l)) 2) 1) t)
+        (t nil)
+    )
+)
+
+#|
+    numara(l)= 0, daca l  atom
+               1+numara(l1)+numara(l2), daca verifica(l1) e adevarat
+               numara(l1)+numara(l2), daca verifica(l1) e fals
+|#
+
+(defun numara(l)
+    (cond  
+        ((atom l) 0)
+        ((verifica l) (+ 1 (apply '+(mapcar #'numara l))))
+        (t (apply '+ (mapcar #'numara l)))
+    )
+)

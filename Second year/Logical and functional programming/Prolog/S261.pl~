@@ -1,0 +1,16 @@
+insereaza(E,L,[E|L]).
+insereaza(E,[H|T],[H|Rez]):-insereaza(E,T,Rez).
+
+aranj([H|_],1,[H]).
+aranj([_|T],K,R):-aranj(T,K,R).
+aranj([H|T],K,R):-K>1,K1 is K-1,
+	aranj(T,K1,R1),
+	insereaza(H,R1,R).
+
+ultima_impara([H]):-1 is (H mod 2),!.
+ultima_impara([_|T]):-ultima_impara(T).
+
+suma([],0):-!.
+suma([H|T],S):-suma(T,S1),S is S1+H.
+
+conditie(L,K,S,R):-aranj(L,K,R),ultima_impara(R),suma(R,Sum),S is Sum.

@@ -1,0 +1,21 @@
+sublista([],[]).
+sublista([_|T],R):-sublista(T,R).
+sublista([H|T],[H|R]):-sublista(T,R).
+
+listaN([],0).
+listaN([_|T],NR):-listaN(T,NR1),NR is NR1+1.
+
+find_min([H],H):-!.
+find_min([H|T],H):- find_min(T,M), M > H,!.
+find_min([_|T],M):-find_min(T,M).
+
+elimin([],_,[]):-!.
+elimin([H|T],E,R):-E is H,!, elimin(T,E,R).
+elimin([H|T],E,[H|R]):-elimin(T,E,R).
+
+sorteaza([],[]).
+sorteaza(L,[M|R]):-find_min(L,M),elimin(L,M,L1),sorteaza(L1,R).
+
+conditie(L,N,R):-sorteaza(L,S),sublista(S,R),listaN(R,NR), NR is N.
+
+main(L,N,R):-findall(SUB,conditie(L,N,SUB),R).

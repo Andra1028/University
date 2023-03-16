@@ -1,0 +1,20 @@
+sublista([], []).
+sublista([_|T], Rez):-sublista(T, Rez).
+sublista([H|T], [H|Rez]):-sublista(T, Rez).
+
+minim_lista([E],E):-!.
+minim_lista([H|T],R):-minim_lista(T,R1),R is min(H,R1).
+
+elimin_el([],[],_):-!.
+elimin_el([H|T], [H|Rez],E):-not(E is H),!, elimin_el(T, Rez, E).
+elimin_el([_|T], Rez, E):-elimin_el(T,Rez,E).
+
+
+sorteaza([],[]):-!.
+sorteaza(L,[Min|R]):-minim_lista(L,Min),elimin_el(L,L1,Min),sorteaza(L1,R).
+
+lista2([_,_|_]).
+
+conditie(L,R):-sorteaza(L,S),
+    sublista(S,R),
+    lista2(R).

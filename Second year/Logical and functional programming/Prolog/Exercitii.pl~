@@ -1,0 +1,271 @@
+%Sa se scrie un predicat care substituie intr-o lista un element
+% printr-o alta lista.
+
+%substituie(L:lista, X:element, S:lista, R:lista)
+%L:lista initiala
+%X:elementul de substituit
+%S:lista cu care se substituie elementul
+%R: lista rezultata
+
+substituie([],_,_,[]):-!.
+substituie([H|T],X,S,[S|R]):-X is H,!, substituie(T,X,S,R).
+substituie([H|T],X,S,[H|R]):-substituie(T,X,S,R).
+
+%Sa se elimine elementul de pe pozitia a n-a a unei liste liniare.
+
+%elimina(L:lista, P:intreg, N:intreg,R:lista)
+%L:lista initiala
+%P:poz de pe care se sterge
+%N: poz curenta
+%R:lista rezultata
+
+elimina([],_,_,[]):-!.
+elimina([H|T],P,N,[H|R]):-not(P is N),!,M is (N+1),elimina(T,P,M,R).
+elimina([_|T],P,N,R):-M is (N+1), elimina(T,P,M,R).
+
+
+%Sa se scrie un predicat care sterge toate aparitiile unui anumit atom
+% dintr-o lista.
+%sterge(L:lista, X:intreg, R:lista)
+%L:lista initiala
+%X:elementul de sters
+%R:lista rezultata
+
+sterge([],_,[]):-!.
+sterge([H|T],X,[H|R]):-not(X is H),!,sterge(T,X,R).
+sterge([_|T],X,R):-sterge(T,X,R).
+
+% Definiti un predicat care, dintr-o lista de atomi, produce o lista de
+% perechi (atom n), unde atom apare in lista initiala de n ori. De ex:
+% numar([1, 2, 1, 2, 1, 3, 1], X) va produce X = [[1, 4], [2, 2], [3,
+% 1]].
+
+%nrAparitii(L:lista, X:intreg, N:intreg)
+%L: lista initiala
+%X:elementul cautat
+%N:nr de aparitii ale lui X in L
+
+nrAparitii([],_,0):-!.
+nrAparitii([H|T],X,N):-X is H,!,nrAparitii(T,X,NR),N is NR+1.
+nrAparitii([_|T],X,N):-nrAparitii(T,X,N).
+
+%perechi(L:lista,R:lista).
+%L:lista initiala
+%R:lista de perechi
+
+perechi([],[]):-!.
+perechi([H|T],[P|R]):-nrAparitii([H|T],H,N),
+    P = [H,N],
+    sterge([H|T],H,LR),
+    perechi(LR,R).
+
+
+%Sa se scrie un predicat care elimina dintr-o lista toate elementele care
+% se repeta (ex: l=[1,2,1,4,1,3,4] => l=[2,3]).
+
+%eliminaRep(L:lista,R:lista).
+%l:lista initiala
+%R: lista rezultata dupa ce se sterg elementele
+
+eliminaElem([],_,[]):-!.
+eliminaElem([H|T],X,R):-X is H,!,eliminaElem(T,X,R).
+eliminaElem([H|T],X,[H|R]):-eliminaElem(T,X,R).
+
+
+eliminaRep([],[]):-!.
+eliminaRep([H|T],[H|R]):-nrAparitii([H|T],H,N),
+    1 is N,!,
+    eliminaElem([H|T],H,L),
+    eliminaRep(L,R).
+eliminaRep([H|T],R):-eliminaElem([H|T],H,L),eliminaRep(L,R).
+
+%Sa se elimine toate aparitiile elementului maxim dintr-o lista de numere
+% intregi.
+
+maxim([],_):-!.
+maxim([X,Y],X):-X>=Y, !.
+maxim([X,Y],Y):-X<Y, !.
+maxim([H|X],Y):-maxim(X,Y), H=<Y, !.
+maxim([H|X],H):-maxim(X,Y), H>Y, !.
+
+eliminaMax(L,R):-
+    maxim(L,M),
+    eliminaElem(L,M,R).
+
+% Sa se scrie un predicat care intoarce reuniunea a doua multimi.
+
+exista([H|_],X):-X is H,!.
+exista([_|T],X):-exista(T,X).
+
+concat([],[],[]):-!.
+concat([H|L1],L2,[H|R]):-concat(L1,L2,R).
+concat(L1,[H|L2],[H|R]):-concat(L1,L2,R).
+
+multime([],[]):-!.
+multime([H|T],[H|R]):-nrAparitii([H|T],H,N),
+    N is 1,!,
+    eliminaElem(T,H,M),
+    multime(M,R).
+multime([_|T],R):-multime(T,R).
+
+reuniune([],[],[]):-!.
+reuniune(L1,L2,R):-concat(L1,L2,C),
+    multime(C,R).
+
+% Sa se scrie un predicat care, primind o lista, intoarce multimea
+% tuturor perechilor din lista. De ex, cu [a, b, c, d] va produce
+% [[a, b], [a, c], [a, d], [b, c], [b, d], [c, d]].
+
+duo([],_,[]):-!.
+duo([H|T],X,[[X,H]|R]):-duo(T,X,R).
+
+
+listaPerechi([],[]):-!.
+listaPerechi([H|T],R1):-duo(T,H,L),concat(L,R,R1),listaPerechi(T,R).
+
+
+%Sa se scrie un predicat care testeaza daca o lista este multime.
+
+eMultime([]):-!.
+eMultime([H|T]):-nrAparitii([H|T],H,N),
+    N is 1,
+    eMultime(T).
+
+
+% Sa se scrie un predicat care elimina primele 3 aparitii ale unui element
+% intr-o lista. Daca elementul apare mai putin de 3 ori, se va elimina
+% de  cate ori apare.
+
+eliminTrei([],[],_,_):-!.
+eliminTrei([H|T],R,E,CAT):-H is E,
+    not(CAT is 0),!,
+    NR is CAT-1,
+    eliminTrei(T,R,E,NR).
+eliminTrei([H|T],[H|R],E,CAT):-eliminTrei(T,R,E,CAT).
+
+%Sa se scrie un predicat care intoarce intersectia a doua multimi.
+
+stergeUnu([],[]):-!.
+stergeUnu([H|T],R):-nrAparitii([H|T],H,N),
+    N is 1,!,
+    stergeUnu(T,R).
+stergeUnu([H|T],[H|R]):-stergeUnu(T,R).
+
+intersectie([],[],[]):-!.
+intersectie(L1,L2,R):-concat(L1,L2,C),
+    stergeUnu(C,S),
+    multime(S,R).
+
+%Sa se construiasca lista (m, ..., n), adica multimea numerelor intregi
+% din intervalul [m, n].
+
+listaMN(M,N,[]):-M>N,!.
+listaMN(M,N,[M|R]):-M =<N,!,
+    M2 is M+1,
+    listaMN(M2,N,R).
+
+
+%Sa se intercaleze un element pe pozitia a n-a a unei liste.
+
+puneElem([],_,_,[]):-!.
+puneElem([H|T],E,NR,[H|R]):-NR<1,!,
+    puneElem(T,E,NR,R).
+puneElem([H|T],E,NR,[H|R]):-NR>1,!,
+    NR2 is NR-1,
+    puneElem(T,E,NR2,R).
+puneElem([H|T],E,_,[E,H|R]):-NR2 is 0,
+    puneElem(T,R,NR2,R).
+
+%Definiti un predicat care intoarce cel mai mare divizor comun al
+% numerelor dintr-o lista.
+
+cmmdc(X, 0, X).
+cmmdc(X, Y, D) :- Z is X mod Y, cmmdc(Y, Z, D), !.
+
+cmmdcLista([H],H):-!.
+cmmdcLista([H1|[H2|T]],C):-cmmdc(H1,H2,R),
+    cmmdcLista([R|T],C).
+
+%Sa se scrie un predicat care sa testeze daca o lista formata din numere intregi
+% are aspect de "vale"(o multime se spune ca are aspect de "vale" daca
+% elementele descresc pana la un moment dat, apoi cresc. De ex. 10 8 6 9
+% 11 13).
+
+vale([_],0).
+vale([H1,H2|T],1):-H1>H2,vale([H2|T],1).
+vale([H1,H2|T],_):-H1<H2, vale([H2|T],0).
+
+eVale([H1,H2|T]):-H1>H2,vale([H1,H2|T],1).
+
+
+%Sa se calculeze suma alternanta a elementelor unei liste (l1 -l2 + l3 ...).
+
+
+sumaAlternanta([],0).
+sumaAlternanta([X],X):-!.
+sumaAlternanta([H|T],X):-sumaAlternanta(T,X1),
+    X is H-X1.
+
+%Sa se scrie un predicat care substituie intr-o lista un element prin altul.
+
+substituiElem([],_,_,[]):-!.
+substituiElem([H|T],E,S,[S|R]):-H is E,!, substituiElem(T,E,S,R).
+substituiElem([H|T],E,S,[H|R]):-substituiElem(T,E,S,R).
+
+
+
+%Sa se construiasca sublista (lm, ..., ln) a listei (l1, ..., lk).
+
+sublista([],[],_,_,_):-!.
+sublista([H|T],[H|R],M,N,P):-P>=M,P=<N,!,
+    POZ is P+1,
+    sublista(T,R,M,N,POZ).
+sublista([_|T],R,M,N,P):-POZ is P+1,
+    sublista(T,R,M,N,POZ).
+
+%Sa se scrie un predicat care transforma o lista intr-o multime, in ordinea ultimei aparitii. Exemplu: [1,2,3,1,2] e transformat in [3,1,2].
+
+multimeOrdine([],[]):-!.
+multimeOrdine([H|T],[H|R]):-nrAparitii([H|T],H,N),
+    N is 1,!,
+    multimeOrdine(T,R).
+multimeOrdine([_|T],R):-multimeOrdine(T,R).
+
+
+% Sa se scrie un predicat care testeaza egalitatea a doua multimi, fara
+% sa se faca apel la diferenta a doua multimi.
+
+m1inM2([],_):-!.
+m1inM2([H|T],M):-nrAparitii(M,H,N),
+    N is 1,!,
+    multimiEgale(T,M).
+
+multimiEgale([],[]):-!.
+multimiEgale(L,M):-m1inM2(L,M),m1inM2(M,L).
+
+
+% Sa se scrie un predicat care se va satisface daca o lista are numar par
+% de elemente si va esua in caz contrar, fara sa se numere elementele
+% listei.
+
+nrParElem([]).
+nrParElem([_,_|T]):-nrParElem(T).
+
+%Sa se elimine prima aparitie a elementului minim dintr-o lista de numereintregi.
+
+
+minim([],_):-!.
+minim([X,Y],X):-X=<Y,!.
+minim([X,Y],Y):-X>Y,!.
+minim([H|T],X):-minim(T,X),H>=X,!.
+minim([H|T],H):-minim(T,X),H<X.
+
+stergePrimaAparitie([],[],_,_):-!.
+stergePrimaAparitie([H|T],R,E,C):-E is H,
+    1 is C,!,
+    C1 is C-1,
+    stergePrimaAparitie(T,R,E,C1).
+stergePrimaAparitie([H|T],[H|R],E,C):-stergePrimaAparitie(T,R,E,C).
+
+primMinim([],[]):-!.
+primMinim(L,R):-minim(L,M),stergePrimaAparitie(L,R,M,1).

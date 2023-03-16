@@ -1,0 +1,23 @@
+%concat(L1:lista,L2:lista,R:lista)
+%L1,L2:listele de concatenat
+%R:rezultat
+%model de flux: (i,i,o),(i,i,i).
+
+concat([],[],[]):-!.
+concat([H|T],L2,[H|R]):-!,concat(T,L2,R).
+concat(L1,[H|T],[H|R]):-!,concat(L1,T,R).
+
+%substituie(L:lista,E:intreg, S:lista, R:lista)
+%L: lista initialala
+%S:lista cu care se substituie
+%E:elelmentul de substituit
+%R:lista rezultata
+%model de flux: (i,i,i,o),(i,i,i,i)
+
+substituie([],_,_,[]):-!.
+substituie([H|T],E,S,[H|R]):-not(H is E),!,
+    substituie(T,E,S,R).
+substituie([H|T],E,S,R1):-H is E,
+    %concat(S,R,R1),
+    substituie(T,E,S,R),
+    concat(S,R,R1).

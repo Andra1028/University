@@ -1,0 +1,3 @@
+genereaza(_,0,[]).
+genereaza(N,N,[N|_]).
+genereaza(I,N,[I|R]):-I<N,I1 is I+1,genereaza(I1,N,R).

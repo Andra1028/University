@@ -1,0 +1,2 @@
+genereaza(N,C,[C]):-C is 2*N-1.
+genereaza(N,C,[N|R]):-genereaza(N,C1,R),C1 is C+1.

@@ -1,0 +1,88 @@
+;9
+;a)
+
+;exista (l: lista  e:intreg)
+;l lista in care se cauta elementul
+;e elementul de cautat
+
+(defun exista(l e)
+(cond
+((null l) nil)
+((=(car l) e) (car l))
+(t(exista (cdr l) e))
+)
+)
+
+;diferenta (l1: lista  l2: lista)
+;din l1 se scade l2
+
+(defun diferenta(l1 l2)
+(cond
+((null l1) ())
+((equal (exista l2 (car l1)) (car l1)) (diferenta (cdr l1) l2))
+(t (cons (car l1)(diferenta (cdr l1) l2)))
+)
+)
+
+
+;b)
+
+;invers (l: lista)
+;l lista care se inverseaza
+
+(defun invers (l)
+(cond
+((null l) ())
+((numberp (car l)) (append (invers(cdr l)) (list(car l))))
+((listp (car l)) (append (invers(cdr l)) (list(invers (car l)))))
+)
+)
+
+
+;c)
+;nrElemLista(l: lista)
+; returneaza cate elemente are lista l
+(defun nrElemLista (l)
+    (cond
+            ((null l) 0)
+            (T (+ 1 (nrElemLista (cdr l))))
+    )
+)
+
+
+;construire_impar(l: lista)
+;returneaza o lista cu primele elemente ale tuturor listelor  din l
+(defun construire_impar(l)
+	(cond
+		((null l) nil)
+		((and (listp (car l)) (=(mod(length(car l)) 2) 1))(append(append(list(caar l)) (construire_impar (cdr (car l))))(construire_impar(cdr l))))
+		((and(listp(car l)) (=(mod(length(car l)) 2) 0)) (append(construire_impar(cdr(car l))) (construire_impar(cdr l))))
+		(t(construire_impar(cdr l)))
+	)
+
+)
+
+
+;impar (l: lista)
+;foloseste construire_impar, daca l are numar impar de elemente, pune la inceputul listei 
+;rezultata din construire_impar primul element
+(defun impar (l)
+(cond
+((null l) ())
+((oddp(nrElemLista l)) (append(list(car l)) (construire_impar l)))
+(t (construire_impar l))
+)
+)
+
+
+;d)
+;suma (l: lista)
+;face suma tuturor numerelor din lista
+(defun suma(l)
+(cond
+((null l) 0)
+((numberp (car l)) (+ (suma(cdr l)) (car l)))
+((listp (car l)) (+(+ (caar l) (suma (cdr (car l)))) (suma (cdr l)))))
+)
+
+

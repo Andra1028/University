@@ -1,0 +1,15 @@
+insereaza(E,L,[E|L]).
+insereaza(E,[H|T], [H|R]):-insereaza(E,T,R).
+
+permutari([],[]).
+permutari([H|T],R):-permutari(T,L),
+    insereaza(H,L,R).
+
+val_abs([],0):-!.
+val_abs([_],0):-!.
+val_abs([H1,H2]):-V is H1 - H2,V < 4, V > -4,!.
+val_abs([H1,H2|T]):-V is H1 - H2, V<4, V > -4,val_abs([H2|T]).
+
+conditie(L,R):-permutari(L,R),val_abs(R).
+
+main(L, R):-findall(REZ, conditie(L, REZ),R).

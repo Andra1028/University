@@ -1,0 +1,32 @@
+%Dandu-se o lista liniara numerica, sa se stearga toate secventele de
+% valori consecutive. Ex: sterg([1, 2, 4, 6, 7, 8, 10], L) va produce
+% L=[4, 10].
+
+%eliminaSec(L:lista,R:lista)
+%model de flux: (i,i), (i,o)
+%L: lista din care se elimina secventele cu valori consecutive
+%R: lista rezultata
+%E:elementu sters din lista pentru care se face comparatia
+
+eliminaSec([],[],_):-!.
+eliminaSec([H1,H2|T],R,_):-H2 is H1+1,!,eliminaSec([H2|T],R,H1).
+eliminaSec([H|T],R,E):-E is H-1,!,eliminaSec(T,R,H).
+eliminaSec([H1,H2],[],_):-H2 is H1+1,!.
+eliminaSec([X],[X],_):-!.
+eliminaSec([H1,H2|T],[H1|R],E):-not(E is H1-1), not(H2 is H1+1),eliminaSec([H2|T],R,H1).
+
+
+% Se da o lista eterogena, formata din numere intregi si liste de numere
+% intregi. Din fiecare sublista sa se stearga toate secventele de valori
+% consecutive. De ex:[1, [2, 3, 5], 9, [1, 2, 4, 3, 4, 5, 7, 9], 11, [5,
+% 8, 2], 7] =>[1, [5], 9, [4, 7, 9], 11, [5, 8, 2], 7]
+
+
+%sterge(L:lista,R:lista)
+%model de flux:(i,i),(i,o)
+%L:lista eterogena initiala
+%R:lista rezultata dupa stergeri
+
+sterge([],[]):-!.
+sterge([H|T],[H|R]):-number(H),sterge(T,R).
+sterge([H|T],[E|R]):-is_list(H),eliminaSec(H,E,-18287),sterge(T,R).

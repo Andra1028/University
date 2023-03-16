@@ -1,0 +1,171 @@
+%Definiti un predicat care determina suma a doua numere scrise in reprezentare de
+%lista.
+
+inversareLista([],A,A).
+inversareLista([H|T],A,R):-inversareLista(T,[H|A],R).
+inversare(L,R):-inversareLista(L,[],R).
+
+suma([],[],[],0):-!.
+suma([],[H|T],[H|S],0):-!,suma([],T,S,0).
+suma([H|T],[],[H|S],0):-!,suma(T,[],S,0).
+suma([],[H|T],[S1|S],1):-!,S1 is H+1,suma([],T,S,0).
+suma([H|T],[],[S1|S],1):-!,S1 is H+1,suma(T,[],S,0).
+suma([H1|T1],[H2|T2],[S1|S],0):-
+    H1+H2>9,!,
+    S1 is (H1+H2)mod 10,
+    suma(T1,T2,S,1).
+suma([H1|T1],[H2|T2],[S1|S],1):-
+    H1+H2>9,!,
+    S1 is ((H1+H2)mod 10)+1,
+    suma(T1,T2,S,1).
+suma([H1|T1],[H2|T2],[S1|S],0):-
+    H1+H2=<9,!,
+    S1 is H1+H2,
+    suma(T1,T2,S,0).
+suma([H1|T1],[H2|T2],[S1|S],1):-
+    H1+H2<9,!,
+    S1 is H1+H2+1,
+    suma(T1,T2,S,0).
+suma([H1|T1],[H2|T2],[0|S],1):-
+    H1+H2 is 9,!,
+    suma(T1,T2,S,1).
+
+sumaLista([],[],[]):-!.
+sumaLista(L1,L2,S):-inversare(L1,I1),
+    inversare(L2,I2),
+    suma(I1,I2,SI,0),
+    inversare(SI,S).
+
+%Sa se sorteze o lista cu pastrarea dublurilor. De ex: [4 2 6 2 3 4] => [2 2 3 4 4 6]
+
+inserare([],E,[E]):-!.
+inserare([H|T],E,[E,H|T]):-E=<H,!.
+inserare([H|T],E,[H|R]):-E>H,inserare(T,E,R).
+
+sortare([],C,C).
+sortare([H|T],C,R):-inserare(C,H,R1),
+	sortare(T,R1,R).
+
+%Sa se sorteze o lista cu eliminarea dublurilor. De ex: [4 2 6 2 3 4] =>[2 3 4 6]
+
+nrAparitii([],_,0):-!.
+nrAparitii([H|T],X,N):-X is H,!,nrAparitii(T,X,NR),N is NR+1.
+nrAparitii([_|T],X,N):-nrAparitii(T,X,N).
+
+eliminaElem([],_,[]):-!.
+eliminaElem([H|T],X,R):-X is H,!,eliminaElem(T,X,R).
+eliminaElem([H|T],X,[H|R]):-eliminaElem(T,X,R).
+
+multime([],[]):-!.
+multime([H|T],[H|R]):-nrAparitii([H|T],H,N),
+    N is 1,!,
+    eliminaElem(T,H,M),
+    multime(M,R).
+multime([_|T],R):-multime(T,R).
+
+sortareFaraDub([],C,C).
+sortareFaraDub([H|T],C,REZ):-inserare(C,H,R1),
+	sortare(T,R1,R),multime(R,REZ).
+
+%Sa se interclaseze fara pastrarea dublurilor doua liste sortate.
+
+interclasez([], L, L).
+interclasez(L, [], L).
+interclasez([P1|R1], [P2|R2], [P1|R3]) :- P1 < P2,
+    interclasez(R1, [P2|R2], R3).
+interclasez([P1|R1], [P1|R2], [P1|R3]) :- interclasez(R1, R2, R3).
+interclasez(R1, [P2|R2], [P2|R3]) :- interclasez(R1, R2, R3).
+
+
+%Sa se determine pozitiile elementului maxim dintr-o lista liniara. De ex:poz([10,14,12,13,14], L) va produce L = [2,5].
+
+maxim([],_):-!.
+maxim([X,Y],X):-X>Y.
+maxim([X,Y],Y):-X=<Y.
+maxim([H|T],M):-maxim(T,M),H=<M,!.
+maxim([H|T],H):-maxim(T,M),H>M,!.
+
+pozElem([],[],_,_):-!.
+pozElem([H|T],[P|R],P,E):-H is E,!,P1 is P+1,pozElem(T,R,P1,E).
+pozElem([_|T],R,P,E):-P1 is P+1,pozElem(T,R,P1,E).
+
+pozMaxim([],[]):-!.
+pozMaxim(L,R):-maxim(L,M),pozElem(L,R,1,M).
+
+%Intr-o lista L sa se inlocuiasca toate aparitiile unui element E cuelementele unei alte liste, L1. De ex: inloc([1,2,1,3,1,4],1,[10,11],X)va produce X=[10,11,2,10,11,3,10,11,4].
+
+concat([],[],[]):-!.
+concat([H|L1],L2,[H|R]):-concat(L1,L2,R).
+concat(L1,[H|L2],[H|R]):-concat(L1,L2,R).
+
+
+substituie([],_,_,[]):-!.
+substituie([H|T],L,E,R):-E is H,!,substituie(T,L,E,R1),concat(L,R1,R).
+substituie([H|T],L,E,[H|R]):-substituie(T,L,E,R).
+
+
+%Definiti un predicat care determina produsul unui numar reprezentat
+% cifra cu cifra intr-o lista cu o anumita cifra. De ex: [1 9 3 5 9 9] *
+% 2 =>[3 8 7 1 9 8].
+
+produs([],_,[],_):-!.
+produs([H],E,[P1],0):-H*E<10,!,P1 is H*E.
+produs([H],E,[P1,P2],0):-H*E>=10,!,P1 is (H*E)mod 10, P2 is (H*E) div 10 .
+produs([H],E,[P1],C):-(H*E)+C<10,!,P1 is (H*E)+C.
+produs([H],E,[P1|P2],C):-(H*E)+C>=10,!,P1 is ((H*E)+C)mod 10,
+    P2 is ((H*E)+C) div 10.
+
+produs([H|T],E,[P1|R],0):-H*E<10,!,P1 is H*E, produs(T,E,R,0).
+produs([H|T],E,[P1|R],0):-H*E>=10,!,P1 is (H*E)mod 10,C is (H*E) div 10,
+    produs(T,E,R,C).
+produs([H|T],E,[P1|R],C):-(H*E)+C<10,P1 is H*E+C, produs(T,E,R,0).
+produs([H|T],E,[P1|R],C):-(H*E)+C>=10,P1 is ((H*E)mod 10)+C,
+    C1 is(((H*E)mod 10)+C) div 10,
+    produs(T,E,R,C1).
+
+produsLista([],_,[]):-!.
+produsLista(L,E,R):-inversare(L,L1),produs(L1,E,R1,0),inversare(R1,R).
+
+
+% Definiti un predicat care determina succesorul unui numar reprezentat
+% cifra cu cifra intr-o lista. De ex: [1 9 3 5 9 9] => [1 9 3 6 0 0]
+
+
+succesor([],[],_):-!.
+succesor([H],[P],C):-H+C<10,!,P is H+C.
+succesor([H],[0,1],1):-H+1>9,!.
+succesor([H|T],[P|R],C):-H+C<10,!,P is H+C,succesor(T,R,0).
+succesor([H|T],[0|R],C):-H+C>9,!,succesor(T,R,1).
+
+succesorLista(L,R):-inversare(L,L1),succesor(L1,R1,1),inversare(R1,R).
+
+% Se da o lista de numere intregi. Se cere sa se adauge in lista dupa
+% 1-ul element, al 3-lea element, al 7-lea elemen, al 15-lea element ...
+% o valoare data e.
+
+adauga([],[],_,_):-!.
+adauga([H|T],[H|R],E,N):-0 is N mod 2 ,!,NR is N+1, adauga(T,R,E,NR).
+adauga([H|T],[H,E|R],E,N):-NR is N+1, adauga(T,R,E,NR).
+
+
+% Se da o lista de numere intregi. Se cere sa se scrie de 2 ori in lista
+% fiecare numar prim.
+
+prim(A,A).
+prim(A,D):-not(0 is A mod D),DIV is D+1, prim(A,DIV).
+
+primLista([],[]):-!.
+primLista([H|T],[H,H|R]):-prim(H,2),!,
+    primLista(T,R).
+primLista([H|T],[H|R]):-primLista(T,R).
+
+%Sa se adauge dupa fiecare element dintr-o lista divizorii elementului.
+
+divizori(A,[],_):-prim(A,2),!.
+divizori(A,[],A):-!.
+divizori(A,[D|R],D):-0 is A mod D,!, D1 is D+1, divizori(A,R,D1).
+divizori(A,R,D):-D1 is D+1, divizori(A,R,D1).
+
+divizoriLista([],[]):-!.
+divizoriLista([H|T],[H|R]):-prim(H,2),!,divizoriLista(T,R).
+divizoriLista([H|T],[H|D1]):-divizori(H,D,2),divizoriLista(T,R),concat(R,D,D1).

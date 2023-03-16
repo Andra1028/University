@@ -1,0 +1,6 @@
+sublista([],[]).
+sublista([_|T], R):-sublista(T,R).
+sublista([H|T],[H|R]):-sublista(T,R).
+
+suma([],0):-!.
+suma([H|T],S):-suma(T,S1),S is S1+H.
