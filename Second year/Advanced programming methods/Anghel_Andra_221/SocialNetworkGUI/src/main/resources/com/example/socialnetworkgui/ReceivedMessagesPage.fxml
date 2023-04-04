@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialnetworkgui.controller.ReceivedMessagesPage">
+   <children>
+      <TableView fx:id="messTable" layoutX="81.0" layoutY="84.0" prefHeight="269.0" prefWidth="438.0">
+        <columns>
+          <TableColumn fx:id="firstnameColumn" prefWidth="99.66668701171875" text="firstname" />
+          <TableColumn fx:id="lastnameColumn" prefWidth="90.33331298828125" text="lastname" />
+            <TableColumn fx:id="messageColumn" prefWidth="247.0" text="message" />
+        </columns>
+      </TableView>
+      <Text fill="#2b43ba" layoutX="182.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Received Messages">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="backButton" layoutX="29.0" layoutY="27.0" mnemonicParsing="false" onAction="#handleBack" text="back" />
+      <Label fx:id="messageLabel" layoutX="286.0" layoutY="361.0" />
+   </children>
+</AnchorPane>

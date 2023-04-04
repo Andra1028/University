@@ -1,0 +1,268 @@
+Complexity metrics (2),Mon, 9 Jan 2023 16:33:03 EET
+Method,CogC,ev(G),iv(G),QCP_MAINT,V,v(G)
+com.example.socialnetworkgui.HelloApplication.main(String[]),0,1,1,15,8,1
+com.example.socialnetworkgui.HelloApplication.start(Stage),0,1,1,61,70,1
+com.example.socialnetworkgui.HelloController.onHelloButtonClick(),0,1,1,18,11,1
+com.example.socialnetworkgui.Main.main(String[]),0,1,1,126,158,1
+com.example.socialnetworkgui.Main.printCommands(),0,1,1,111,128,1
+com.example.socialnetworkgui.controller.AddFriendPage.handleAdd(ActionEvent),1,1,2,63,72,2
+com.example.socialnetworkgui.controller.AddFriendPage.handleBack(ActionEvent),1,1,2,116,166,2
+com.example.socialnetworkgui.controller.AddFriendPage.initModel(),0,1,1,44,48,1
+com.example.socialnetworkgui.controller.AddFriendPage.initialize(),0,1,1,44,44,1
+"com.example.socialnetworkgui.controller.AddFriendPage.setService(ServiceUser, ServiceFriendship, ServiceMessage)",0,1,1,42,39,1
+com.example.socialnetworkgui.controller.AddFriendPage.update(FriendshipEntityChangeEvent),0,1,1,12,4,1
+com.example.socialnetworkgui.controller.FriendRequestPage.handleAccept(ActionEvent),1,1,2,63,72,2
+com.example.socialnetworkgui.controller.FriendRequestPage.handleBack(ActionEvent),1,1,2,116,166,2
+com.example.socialnetworkgui.controller.FriendRequestPage.handleDecline(ActionEvent),1,1,2,63,72,2
+com.example.socialnetworkgui.controller.FriendRequestPage.initModel(),1,1,2,60,68,2
+com.example.socialnetworkgui.controller.FriendRequestPage.initialize(),0,1,1,44,44,1
+"com.example.socialnetworkgui.controller.FriendRequestPage.setService(ServiceUser, ServiceFriendship, ServiceMessage)",0,1,1,42,39,1
+com.example.socialnetworkgui.controller.FriendRequestPage.update(FriendshipEntityChangeEvent),0,1,1,12,4,1
+com.example.socialnetworkgui.controller.Login.login(ActionEvent),1,1,2,202,325,2
+com.example.socialnetworkgui.controller.Login.onSignUp(ActionEvent),1,1,2,89,117,2
+com.example.socialnetworkgui.controller.MessagePage.handleBack(ActionEvent),1,1,2,116,166,2
+com.example.socialnetworkgui.controller.MessagePage.handleSend(ActionEvent),1,1,2,118,153,2
+com.example.socialnetworkgui.controller.MessagePage.initModel(),1,1,2,60,68,2
+com.example.socialnetworkgui.controller.MessagePage.initialize(),0,1,1,44,44,1
+"com.example.socialnetworkgui.controller.MessagePage.setService(ServiceUser, ServiceFriendship, ServiceMessage)",0,1,1,42,39,1
+com.example.socialnetworkgui.controller.ReceivedMessagesPage.handleBack(ActionEvent),1,1,2,116,166,2
+com.example.socialnetworkgui.controller.ReceivedMessagesPage.initModel(),1,1,2,60,68,2
+com.example.socialnetworkgui.controller.ReceivedMessagesPage.initialize(),0,1,1,57,62,1
+"com.example.socialnetworkgui.controller.ReceivedMessagesPage.setService(ServiceUser, ServiceFriendship, ServiceMessage)",0,1,1,42,39,1
+com.example.socialnetworkgui.controller.SentFriendRequestPage.handleBack(ActionEvent),1,1,2,116,166,2
+com.example.socialnetworkgui.controller.SentFriendRequestPage.handleDecline(ActionEvent),1,1,2,63,72,2
+com.example.socialnetworkgui.controller.SentFriendRequestPage.initModel(),1,1,2,60,68,2
+com.example.socialnetworkgui.controller.SentFriendRequestPage.initialize(),0,1,1,44,44,1
+"com.example.socialnetworkgui.controller.SentFriendRequestPage.setService(ServiceUser, ServiceFriendship, ServiceMessage)",0,1,1,42,39,1
+com.example.socialnetworkgui.controller.SentFriendRequestPage.update(FriendshipEntityChangeEvent),0,1,1,12,4,1
+com.example.socialnetworkgui.controller.SentMessagesPage.handleBack(ActionEvent),1,1,2,116,166,2
+com.example.socialnetworkgui.controller.SentMessagesPage.initModel(),1,1,2,60,68,2
+com.example.socialnetworkgui.controller.SentMessagesPage.initialize(),0,1,1,57,62,1
+"com.example.socialnetworkgui.controller.SentMessagesPage.setService(ServiceUser, ServiceFriendship, ServiceMessage)",0,1,1,42,39,1
+com.example.socialnetworkgui.controller.SignUp.signup(ActionEvent),1,1,2,229,373,2
+com.example.socialnetworkgui.controller.UserPage.handleAdd(ActionEvent),1,1,2,132,196,2
+com.example.socialnetworkgui.controller.UserPage.handleBack(ActionEvent),1,1,2,100,134,2
+com.example.socialnetworkgui.controller.UserPage.handleDelete(ActionEvent),1,1,2,80,101,2
+com.example.socialnetworkgui.controller.UserPage.handleReceivedMessages(ActionEvent),1,1,2,132,196,2
+com.example.socialnetworkgui.controller.UserPage.handleRequest(ActionEvent),1,1,2,132,196,2
+com.example.socialnetworkgui.controller.UserPage.handleSendMessage(ActionEvent),1,1,2,132,196,2
+com.example.socialnetworkgui.controller.UserPage.handleSent(ActionEvent),1,1,2,132,196,2
+com.example.socialnetworkgui.controller.UserPage.handleSentMessages(ActionEvent),1,1,2,132,196,2
+com.example.socialnetworkgui.controller.UserPage.initModel(),0,1,1,44,48,1
+com.example.socialnetworkgui.controller.UserPage.initialize(),0,1,1,44,44,1
+"com.example.socialnetworkgui.controller.UserPage.setService(ServiceUser, ServiceFriendship, ServiceMessage)",0,1,1,42,39,1
+com.example.socialnetworkgui.controller.UserPage.update(FriendshipEntityChangeEvent),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Entity.getID(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Entity.setID(ID),0,1,1,15,8,1
+com.example.socialnetworkgui.domain.Friendship.Friendship(),0,1,1,5,0,1
+"com.example.socialnetworkgui.domain.Friendship.Friendship(User, User)",0,1,1,25,18,1
+"com.example.socialnetworkgui.domain.Friendship.Friendship(User, User, Boolean)",0,1,1,35,30,1
+"com.example.socialnetworkgui.domain.Friendship.Friendship(User, User, LocalDateTime, Boolean)",0,1,1,45,43,1
+com.example.socialnetworkgui.domain.Friendship.equals(Object),4,3,3,103,129,5
+com.example.socialnetworkgui.domain.Friendship.getDate(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Friendship.getPending(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Friendship.getU1(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Friendship.getU2(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Friendship.hashCode(),0,1,1,21,15,1
+com.example.socialnetworkgui.domain.Friendship.setDate(LocalDateTime),0,1,1,15,8,1
+com.example.socialnetworkgui.domain.Friendship.setPending(Boolean),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Friendship.setU1(User),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Friendship.setU2(User),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Friendship.toString(),0,1,1,58,73,1
+"com.example.socialnetworkgui.domain.Message.Message(User, User, String)",0,1,1,35,30,1
+com.example.socialnetworkgui.domain.Message.equals(Object),4,3,4,112,147,6
+com.example.socialnetworkgui.domain.Message.getFrom(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Message.getMessage(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Message.getTo(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Message.getUser1Firstname(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Message.getUser1Lastname(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Message.getUser2Firstname(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Message.getUser2Lastname(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Message.hashCode(),0,1,1,24,19,1
+com.example.socialnetworkgui.domain.Message.setFrom(User),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Message.setMessage(String),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Message.setTo(User),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Message.setUser1Firstname(String),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Message.setUser1Lastname(String),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Message.setUser2Firstname(String),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Message.setUser2Lastname(String),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Message.toString(),0,1,1,36,38,1
+"com.example.socialnetworkgui.domain.Pair.Pair(E1, E2)",0,1,1,25,18,1
+com.example.socialnetworkgui.domain.Pair.getE1(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Pair.getE2(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.Pair.setE1(E1),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Pair.setE2(E2),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.Pair.toString(),0,1,1,21,15,1
+com.example.socialnetworkgui.domain.User.User(),0,1,1,5,0,1
+"com.example.socialnetworkgui.domain.User.User(String, String, List<User>, String, String)",0,1,1,55,57,1
+"com.example.socialnetworkgui.domain.User.User(String, String, List<User>, String, String, List<User>)",0,1,1,65,70,1
+com.example.socialnetworkgui.domain.User.addFriend(User),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.User.addRequests(User),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.User.deleteFriend(User),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.User.deleteRequest(User),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.User.equals(Object),4,3,4,112,147,6
+com.example.socialnetworkgui.domain.User.getEmail(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.User.getFirstName(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.User.getFriends(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.User.getLastName(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.User.getPassword(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.User.getRequests(),0,1,1,12,4,1
+com.example.socialnetworkgui.domain.User.hashCode(),0,1,1,24,19,1
+com.example.socialnetworkgui.domain.User.setEmail(String),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.User.setFirstName(String),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.User.setLastName(String),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.User.setPassword(String),0,1,1,18,11,1
+com.example.socialnetworkgui.domain.User.toString(),0,1,1,33,31,1
+com.example.socialnetworkgui.domain.validation.FriendshipValidator.validate(Friendship),1,2,1,49,50,2
+com.example.socialnetworkgui.domain.validation.MessageValidator.validate(Message),2,3,1,74,82,3
+com.example.socialnetworkgui.domain.validation.UserValidator.validate(User),4,5,1,145,177,5
+com.example.socialnetworkgui.domain.validation.ValidationException.ValidationException(),0,1,1,5,0,1
+com.example.socialnetworkgui.domain.validation.ValidationException.ValidationException(String),0,1,1,15,8,1
+"com.example.socialnetworkgui.domain.validation.ValidationException.ValidationException(String, Throwable)",0,1,1,18,11,1
+"com.example.socialnetworkgui.domain.validation.ValidationException.ValidationException(String, Throwable, boolean, boolean)",0,1,1,30,26,1
+com.example.socialnetworkgui.domain.validation.ValidationException.ValidationException(Throwable),0,1,1,15,8,1
+"com.example.socialnetworkgui.repository.FriendshipDB.FriendshipDB(String, String, String, Validator<Friendship>, Repository<Long, User>)",0,1,1,55,57,1
+com.example.socialnetworkgui.repository.FriendshipDB.delete(SortedSet<Long>),1,1,2,110,155,2
+"com.example.socialnetworkgui.repository.FriendshipDB.executeStatement(Friendship, String)",1,1,2,95,131,2
+com.example.socialnetworkgui.repository.FriendshipDB.extractFriendship(ResultSet),4,2,3,221,330,4
+com.example.socialnetworkgui.repository.FriendshipDB.findAll(),2,1,3,232,373,3
+"com.example.socialnetworkgui.repository.FriendshipDB.findByName(String, String)",0,1,1,12,4,1
+com.example.socialnetworkgui.repository.FriendshipDB.findOne(SortedSet<Long>),4,4,2,242,361,5
+com.example.socialnetworkgui.repository.FriendshipDB.save(Friendship),7,4,4,229,368,6
+com.example.socialnetworkgui.repository.FriendshipDB.update(Friendship),3,3,2,261,435,4
+com.example.socialnetworkgui.repository.InMemoryRepository.InMemoryRepository(Validator<E>),0,1,1,22,15,1
+com.example.socialnetworkgui.repository.InMemoryRepository.delete(ID),1,2,1,61,56,2
+com.example.socialnetworkgui.repository.InMemoryRepository.findAll(),0,1,1,15,8,1
+"com.example.socialnetworkgui.repository.InMemoryRepository.findByName(String, String)",0,1,1,12,4,1
+com.example.socialnetworkgui.repository.InMemoryRepository.findOne(ID),1,2,1,44,41,2
+com.example.socialnetworkgui.repository.InMemoryRepository.save(E),3,3,2,98,114,3
+com.example.socialnetworkgui.repository.InMemoryRepository.update(E),2,3,2,95,108,3
+"com.example.socialnetworkgui.repository.MessageDB.MessageDB(String, String, String, Validator<Message>, Repository<Long, User>)",0,1,1,55,57,1
+com.example.socialnetworkgui.repository.MessageDB.delete(Long),3,3,2,134,180,4
+com.example.socialnetworkgui.repository.MessageDB.extractMessage(ResultSet),0,1,1,176,260,1
+com.example.socialnetworkgui.repository.MessageDB.findAll(),2,1,3,164,237,3
+"com.example.socialnetworkgui.repository.MessageDB.findByName(String, String)",0,1,1,12,4,1
+com.example.socialnetworkgui.repository.MessageDB.findOne(Long),3,3,3,191,291,4
+com.example.socialnetworkgui.repository.MessageDB.save(Message),2,2,2,154,235,3
+com.example.socialnetworkgui.repository.MessageDB.update(Message),0,1,1,12,4,1
+"com.example.socialnetworkgui.repository.UserDB.UserDB(String, String, String, Validator<User>)",0,1,1,45,43,1
+com.example.socialnetworkgui.repository.UserDB.delete(Long),2,2,2,113,148,3
+com.example.socialnetworkgui.repository.UserDB.findAll(),2,1,3,170,258,3
+"com.example.socialnetworkgui.repository.UserDB.findByName(String, String)",4,3,3,241,396,5
+com.example.socialnetworkgui.repository.UserDB.findOne(Long),3,3,3,196,301,4
+com.example.socialnetworkgui.repository.UserDB.save(User),2,2,2,158,239,3
+com.example.socialnetworkgui.repository.UserDB.update(User),3,3,2,207,326,4
+"com.example.socialnetworkgui.service.Network.DFSUtil(int, boolean[], int)",6,1,3,139,183,5
+"com.example.socialnetworkgui.service.Network.DFSUtils(int, boolean[])",5,1,3,98,121,4
+com.example.socialnetworkgui.service.Network.Network(int),3,1,1,120,129,3
+com.example.socialnetworkgui.service.Network.addFriendships(Iterable<Friendship>),0,1,1,112,133,1
+com.example.socialnetworkgui.service.Network.addUsers(Iterable<User>),0,1,1,33,33,1
+com.example.socialnetworkgui.service.Network.biggestComponent(),20,1,7,302,426,9
+com.example.socialnetworkgui.service.Network.connectedComponents(),4,1,4,113,138,4
+"com.example.socialnetworkgui.service.ServiceFriendship.ServiceFriendship(Repository<Long, User>, Repository<SortedSet<Long>, Friendship>)",0,1,1,19,11,1
+"com.example.socialnetworkgui.service.ServiceFriendship.addFriend(Long, Long)",14,4,3,289,429,8
+"com.example.socialnetworkgui.service.ServiceFriendship.deleteFriend(Long, Long)",3,4,1,167,220,4
+com.example.socialnetworkgui.service.ServiceFriendship.printFr(),0,1,1,15,8,1
+"com.example.socialnetworkgui.service.ServiceFriendship.update(Long, Long)",1,2,1,113,149,2
+"com.example.socialnetworkgui.service.ServiceMessage.ServiceMessage(Repository<Long, User>, Repository<Long, Message>)",0,1,1,25,18,1
+com.example.socialnetworkgui.service.ServiceMessage.findOne(Long),2,2,1,51,51,2
+com.example.socialnetworkgui.service.ServiceMessage.get_size(),3,1,3,71,70,3
+"com.example.socialnetworkgui.service.ServiceMessage.save(Long, Long, String)",1,2,1,164,247,2
+"com.example.socialnetworkgui.service.ServiceUser.ServiceUser(Repository<Long, User>, Repository<SortedSet<Long>, Friendship>, Repository<Long, Message>)",0,1,1,26,19,1
+com.example.socialnetworkgui.service.ServiceUser.acceptRequest(User),7,4,8,315,451,8
+com.example.socialnetworkgui.service.ServiceUser.addObserver(Observer<FriendshipEntityChangeEvent>),0,1,1,18,11,1
+"com.example.socialnetworkgui.service.ServiceUser.connectUser(String, String)",7,4,4,96,108,4
+com.example.socialnetworkgui.service.ServiceUser.declineRequest(User),7,4,8,264,357,8
+com.example.socialnetworkgui.service.ServiceUser.delete(Long),2,2,2,114,140,3
+com.example.socialnetworkgui.service.ServiceUser.disconnectUser(),0,1,1,18,11,1
+"com.example.socialnetworkgui.service.ServiceUser.findByName(String, String)",2,2,2,59,62,2
+com.example.socialnetworkgui.service.ServiceUser.findOne(Long),2,2,2,53,53,2
+com.example.socialnetworkgui.service.ServiceUser.firstnameFrom(),3,3,3,57,53,3
+com.example.socialnetworkgui.service.ServiceUser.firstnameTo(),3,3,3,57,55,3
+com.example.socialnetworkgui.service.ServiceUser.getFriendRequests(),4,1,4,83,95,4
+com.example.socialnetworkgui.service.ServiceUser.getFriends(),12,1,6,134,159,6
+com.example.socialnetworkgui.service.ServiceUser.getFriendsWithPending(),8,1,5,118,137,5
+com.example.socialnetworkgui.service.ServiceUser.getIdCurent(),0,1,1,12,4,1
+com.example.socialnetworkgui.service.ServiceUser.getNoFriends(),9,4,5,119,138,6
+com.example.socialnetworkgui.service.ServiceUser.getSentFriendRequests(),4,1,4,83,95,4
+com.example.socialnetworkgui.service.ServiceUser.getUtilizatorCurent(),0,1,1,18,11,1
+com.example.socialnetworkgui.service.ServiceUser.get_size(),3,1,3,58,51,3
+com.example.socialnetworkgui.service.ServiceUser.lastnameFrom(),3,3,3,57,53,3
+com.example.socialnetworkgui.service.ServiceUser.lastnameTo(),3,3,3,57,55,3
+com.example.socialnetworkgui.service.ServiceUser.notifyObservers(FriendshipEntityChangeEvent),0,1,1,24,19,1
+com.example.socialnetworkgui.service.ServiceUser.printUs(),0,1,1,15,8,1
+com.example.socialnetworkgui.service.ServiceUser.receivedMessages(),3,1,3,58,55,3
+com.example.socialnetworkgui.service.ServiceUser.removeObserver(Observer<FriendshipEntityChangeEvent>),0,1,1,18,11,1
+"com.example.socialnetworkgui.service.ServiceUser.save(String, String, String, String)",7,5,3,166,234,5
+"com.example.socialnetworkgui.service.ServiceUser.sendMessage(String, User)",2,2,2,97,116,2
+com.example.socialnetworkgui.service.ServiceUser.sendRequest(User),4,3,3,151,209,4
+com.example.socialnetworkgui.service.ServiceUser.sentMessages(),3,1,3,58,55,3
+com.example.socialnetworkgui.service.ServiceUser.setIdCurent(User),0,1,1,21,15,1
+"com.example.socialnetworkgui.service.ServiceUser.update(Long, String, String, String, String)",1,2,1,89,115,2
+"com.example.socialnetworkgui.utils.FriendshipEntityChangeEvent.FriendshipEntityChangeEvent(ChangeEventType, Friendship)",0,1,1,25,18,1
+"com.example.socialnetworkgui.utils.FriendshipEntityChangeEvent.FriendshipEntityChangeEvent(ChangeEventType, Friendship, Friendship)",0,1,1,35,30,1
+com.example.socialnetworkgui.utils.FriendshipEntityChangeEvent.getData(),0,1,1,12,4,1
+com.example.socialnetworkgui.utils.FriendshipEntityChangeEvent.getOldData(),0,1,1,12,4,1
+com.example.socialnetworkgui.utils.FriendshipEntityChangeEvent.getType(),0,1,1,12,4,1
+"com.example.socialnetworkgui.utils.UserEntityChangeEvent.UserEntityChangeEvent(ChangeEventType, User)",0,1,1,25,18,1
+"com.example.socialnetworkgui.utils.UserEntityChangeEvent.UserEntityChangeEvent(ChangeEventType, User, User)",0,1,1,35,30,1
+com.example.socialnetworkgui.utils.UserEntityChangeEvent.getData(),0,1,1,12,4,1
+com.example.socialnetworkgui.utils.UserEntityChangeEvent.getOldData(),0,1,1,12,4,1
+com.example.socialnetworkgui.utils.UserEntityChangeEvent.getType(),0,1,1,12,4,1
+
+Class,CBO,DIT,LCOM,NOC,OCavg,OCmax,V,WMC
+com.example.socialnetworkgui.HelloApplication,9,2,2,0,1.00,1,104,2
+com.example.socialnetworkgui.HelloController,0,1,1,0,1.00,1,24,1
+com.example.socialnetworkgui.Main,13,1,2,0,1.00,1,361,2
+com.example.socialnetworkgui.controller.AddFriendPage,9,1,1,0,1.00,1,576,6
+com.example.socialnetworkgui.controller.FriendRequestPage,9,1,1,0,1.14,2,717,8
+com.example.socialnetworkgui.controller.Login,15,1,1,0,1.00,1,672,2
+com.example.socialnetworkgui.controller.MessagePage,7,1,1,0,1.20,2,714,6
+com.example.socialnetworkgui.controller.ReceivedMessagesPage,6,1,1,0,1.25,2,492,5
+com.example.socialnetworkgui.controller.SentFriendRequestPage,9,1,1,0,1.17,2,607,7
+com.example.socialnetworkgui.controller.SentMessagesPage,6,1,1,0,1.25,2,492,5
+com.example.socialnetworkgui.controller.SignUp,15,1,1,0,1.00,1,584,1
+com.example.socialnetworkgui.controller.UserPage,23,1,1,0,1.00,1,"2,186",12
+com.example.socialnetworkgui.domain.Entity,16,1,1,3,1.00,1,33,2
+com.example.socialnetworkgui.domain.Friendship,12,2,4,0,1.13,3,676,17
+com.example.socialnetworkgui.domain.Message,11,2,7,0,1.11,3,697,20
+com.example.socialnetworkgui.domain.Pair,0,1,2,0,1.00,1,118,6
+com.example.socialnetworkgui.domain.User,21,2,6,0,1.10,3,845,22
+com.example.socialnetworkgui.domain.validation.FriendshipValidator,8,1,1,0,2.00,2,64,2
+com.example.socialnetworkgui.domain.validation.MessageValidator,8,1,1,0,3.00,3,98,3
+com.example.socialnetworkgui.domain.validation.UserValidator,8,1,1,0,5.00,5,196,5
+com.example.socialnetworkgui.domain.validation.ValidationException,12,4,0,0,1.00,1,96,5
+com.example.socialnetworkgui.repository.FriendshipDB,9,1,2,0,2.33,5,"3,012",21
+com.example.socialnetworkgui.repository.InMemoryRepository,3,1,2,0,1.86,3,490,13
+com.example.socialnetworkgui.repository.MessageDB,8,1,3,0,1.75,3,"1,771",14
+com.example.socialnetworkgui.repository.UserDB,8,1,1,0,2.29,3,"2,188",16
+com.example.socialnetworkgui.service.Network,3,1,1,0,3.14,7,"1,584",22
+com.example.socialnetworkgui.service.ServiceFriendship,15,1,1,0,2.80,6,"1,027",14
+com.example.socialnetworkgui.service.ServiceMessage,15,1,1,0,2.00,3,536,8
+com.example.socialnetworkgui.service.ServiceUser,20,1,1,0,2.61,5,"4,930",81
+com.example.socialnetworkgui.utils.ChangeEventType,3,n/a,2,n/a,n/a,n/a,2,0
+com.example.socialnetworkgui.utils.FriendshipEntityChangeEvent,8,1,3,0,1.00,1,111,5
+com.example.socialnetworkgui.utils.UserEntityChangeEvent,3,1,3,0,1.00,1,111,5
+
+Interface,CBO
+com.example.socialnetworkgui.domain.validation.Validator,8
+com.example.socialnetworkgui.repository.Repository,12
+com.example.socialnetworkgui.utils.Event,4
+com.example.socialnetworkgui.utils.Observable,3
+com.example.socialnetworkgui.utils.Observer,7
+
+Package,Ca,Ce,I,v(G)avg,v(G)tot
+com.example.socialnetworkgui,16,19,0.54,1.00,5
+com.example.socialnetworkgui.controller,0,209,1.00,1.57,74
+com.example.socialnetworkgui.domain,565,0,0.00,1.23,75
+com.example.socialnetworkgui.domain.validation,54,18,0.25,1.88,15
+com.example.socialnetworkgui.repository,85,182,0.68,2.65,82
+com.example.socialnetworkgui.service,80,395,0.83,3.11,146
+com.example.socialnetworkgui.utils,37,14,0.27,1.00,10
+
+Module,v(G)avg,v(G)tot
+SocialNetworkGUI.main,1.95,407
+
+Project,v(G)avg,v(G)tot
+project,1.95,407
+

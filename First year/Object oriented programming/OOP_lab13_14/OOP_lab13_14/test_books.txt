@@ -1,4 +1,0 @@
-carte1,autor1,gen1,2001
-carte2,autor2,gen2,2002
-carte3,autor3,gen3,2003
-carte4,autor4,gen4,2004
