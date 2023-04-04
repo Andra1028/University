@@ -1,0 +1,564 @@
+27 Mar 2023 20:44:24,249 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+27 Mar 2023 20:44:24,253 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+27 Mar 2023 20:44:24,254 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+27 Mar 2023 20:44:24,257 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+27 Mar 2023 20:44:24,257 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 20:44:24,258 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 20:44:24,259 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+27 Mar 2023 20:44:24,260 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+27 Mar 2023 20:44:24,260 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+27 Mar 2023 20:44:24,416 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4808bc9b)
+27 Mar 2023 20:44:24,419 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+27 Mar 2023 20:44:24,419 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 20:44:24,419 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 20:44:24,419 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+27 Mar 2023 20:44:24,419 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+27 Mar 2023 20:44:24,421 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+27 Mar 2023 20:44:24,421 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c667f46)
+27 Mar 2023 20:44:24,422 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 20:44:24,423 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 20:44:24,423 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+27 Mar 2023 20:44:24,423 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+27 Mar 2023 20:44:24,423 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+27 Mar 2023 20:44:24,424 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51bd8b5c)
+27 Mar 2023 20:44:24,433 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 20:44:24,433 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 20:44:24,434 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+27 Mar 2023 20:44:24,435 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+27 Mar 2023 20:44:24,435 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+27 Mar 2023 20:44:24,437 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b50df34)
+27 Mar 2023 20:44:24,455 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 20:44:24,456 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 20:44:24,457 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+27 Mar 2023 20:44:24,457 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+27 Mar 2023 20:44:24,458 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+27 Mar 2023 20:44:24,460 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b410b60)
+27 Mar 2023 20:44:24,464 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+27 Mar 2023 20:44:24,465 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+27 Mar 2023 20:44:24,465 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+27 Mar 2023 20:44:24,466 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+27 Mar 2023 20:44:24,466 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+27 Mar 2023 20:44:24,468 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77659b30)
+30 Mar 2023 18:34:38,487 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 18:34:38,491 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 18:34:38,492 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 18:34:38,493 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+30 Mar 2023 18:34:38,494 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 18:34:38,494 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 18:34:38,494 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 18:34:38,494 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 18:34:38,494 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 18:34:38,638 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4808bc9b)
+30 Mar 2023 18:34:38,640 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+30 Mar 2023 18:39:01,733 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 18:39:01,737 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 18:39:01,738 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 18:39:01,738 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+30 Mar 2023 18:39:01,739 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 18:39:01,739 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 18:39:01,739 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 18:39:01,739 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 18:39:01,739 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 18:39:01,880 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4eb8cec7)
+30 Mar 2023 18:39:01,883 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+30 Mar 2023 18:39:14,539 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 18:39:14,543 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 18:39:14,544 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 18:39:14,545 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+30 Mar 2023 18:39:14,545 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 18:39:14,545 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 18:39:14,545 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 18:39:14,546 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 18:39:14,546 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 18:39:14,667 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4eb8cec7)
+30 Mar 2023 18:39:14,671 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+30 Mar 2023 19:06:25,871 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 19:06:25,874 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 19:06:25,876 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 19:06:25,876 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+30 Mar 2023 19:06:25,877 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 19:06:25,877 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 19:06:25,877 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 19:06:25,877 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 19:06:25,877 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 19:06:26,000 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@daf3b8)
+30 Mar 2023 19:06:26,005 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+30 Mar 2023 19:09:48,444 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 19:09:48,447 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 19:09:48,449 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 19:09:48,450 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+30 Mar 2023 19:09:48,451 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 19:09:48,451 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 19:09:48,451 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 19:09:48,452 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 19:09:48,452 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 19:09:48,581 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@67aa7c80)
+30 Mar 2023 19:09:48,585 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+30 Mar 2023 19:10:31,892 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 19:10:31,896 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 19:10:31,897 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 19:10:31,898 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+30 Mar 2023 19:10:31,899 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 19:10:31,899 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 19:10:31,899 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 19:10:31,899 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 19:10:31,899 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 19:10:32,026 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48d1fbb)
+30 Mar 2023 19:10:32,030 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+30 Mar 2023 19:10:32,061 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 19:10:32,061 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 19:10:32,061 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 19:10:32,062 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 19:10:32,062 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 19:10:32,063 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@56f32e9c)
+30 Mar 2023 19:12:17,914 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 19:12:17,919 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 19:12:17,921 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 19:12:17,922 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+30 Mar 2023 19:12:17,923 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 19:12:17,923 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 19:12:17,923 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 19:12:17,923 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 19:12:17,924 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 19:12:18,051 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2c6fb3b5)
+30 Mar 2023 19:12:18,054 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+30 Mar 2023 19:12:18,086 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 19:12:18,087 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 19:12:18,087 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 19:12:18,087 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 19:12:18,087 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 19:12:18,088 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@369dc600)
+30 Mar 2023 19:36:26,708 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 19:36:26,712 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 19:36:26,713 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 19:36:26,714 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+30 Mar 2023 19:36:26,714 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 19:36:26,715 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 19:36:26,715 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 19:36:26,715 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 19:36:26,715 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 19:36:26,853 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@daf3b8)
+30 Mar 2023 19:36:26,856 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+30 Mar 2023 19:36:26,893 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 19:36:26,893 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 19:36:26,894 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 19:36:26,894 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 19:36:26,894 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 19:36:26,895 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@eeb6db9)
+30 Mar 2023 19:36:49,546 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 19:36:49,547 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 19:36:49,548 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 19:36:53,027 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 19:36:53,027 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 19:36:53,028 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 19:39:59,503 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 19:39:59,507 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 19:39:59,508 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 19:39:59,509 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+30 Mar 2023 19:39:59,509 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 19:39:59,509 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 19:39:59,509 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 19:39:59,510 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 19:39:59,510 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 19:39:59,631 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@daf3b8)
+30 Mar 2023 19:39:59,636 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+30 Mar 2023 19:39:59,669 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 19:39:59,670 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 19:39:59,670 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 19:39:59,670 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 19:39:59,671 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 19:39:59,671 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@369dc600)
+30 Mar 2023 19:40:06,066 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 19:40:06,067 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 19:40:06,068 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 20:10:59,995 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 20:10:59,998 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 20:11:00,000 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 20:11:00,001 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+30 Mar 2023 20:11:00,001 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 20:11:00,001 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 20:11:00,002 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 20:11:00,002 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 20:11:00,002 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 20:11:00,162 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@daf3b8)
+30 Mar 2023 20:11:00,172 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+30 Mar 2023 20:11:00,299 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 20:11:00,300 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 20:11:00,301 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 20:11:00,302 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 20:11:00,303 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 20:11:00,308 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@369dc600)
+30 Mar 2023 20:11:23,874 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 20:11:23,876 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 20:11:23,877 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 20:11:26,777 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 20:11:26,778 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 20:11:26,779 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 20:12:01,067 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 20:12:01,070 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 20:12:01,071 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 20:12:01,071 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+30 Mar 2023 20:12:01,071 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 20:12:01,071 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 20:12:01,073 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 20:12:01,073 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 20:12:01,073 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 20:12:01,204 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@daf3b8)
+30 Mar 2023 20:12:01,207 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+30 Mar 2023 20:12:01,245 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 20:12:01,246 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 20:12:01,246 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 20:12:01,246 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 20:12:01,246 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 20:12:01,247 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@369dc600)
+30 Mar 2023 20:12:19,962 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+30 Mar 2023 20:12:19,963 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+30 Mar 2023 20:12:19,964 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+30 Mar 2023 20:12:20,042 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+30 Mar 2023 20:12:20,043 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+30 Mar 2023 20:12:20,044 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+30 Mar 2023 20:12:20,045 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+30 Mar 2023 20:12:20,045 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+30 Mar 2023 20:12:20,048 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57e30882)
+31 Mar 2023 02:13:54,082 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:13:54,105 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:13:54,106 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:13:54,107 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+31 Mar 2023 02:13:54,108 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:13:54,108 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:13:54,108 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:13:54,109 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:13:54,109 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:13:54,418 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6b4c1523)
+31 Mar 2023 02:13:54,422 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+31 Mar 2023 02:13:54,483 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:13:54,483 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:13:54,484 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:13:54,484 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:13:54,485 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:13:54,487 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3a577fa2)
+31 Mar 2023 02:14:15,525 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:14:15,526 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:14:15,526 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:14:15,587 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:14:15,587 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:14:15,588 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:14:15,588 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:14:15,589 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:14:15,590 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@140ca08b)
+31 Mar 2023 02:15:39,497 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:15:39,500 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:15:39,502 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:15:39,504 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+31 Mar 2023 02:15:39,504 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:15:39,504 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:15:39,505 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:15:39,505 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:15:39,505 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:15:39,670 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@30ba14fe)
+31 Mar 2023 02:15:39,674 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+31 Mar 2023 02:15:39,713 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:15:39,715 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:15:39,715 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:15:39,715 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:15:39,715 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:15:39,716 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@728f7ddf)
+31 Mar 2023 02:16:01,268 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:16:01,269 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:16:01,270 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:16:01,319 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:16:01,319 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:16:01,320 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:16:01,320 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:16:01,320 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:16:01,322 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c6cea23)
+31 Mar 2023 02:16:20,090 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:16:20,095 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:16:20,096 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:16:20,097 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+31 Mar 2023 02:16:20,097 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:16:20,097 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:16:20,098 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:16:20,098 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:16:20,098 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:16:20,279 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@daf3b8)
+31 Mar 2023 02:16:20,285 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+31 Mar 2023 02:16:20,393 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:16:20,394 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:16:20,395 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:16:20,396 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:16:20,397 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:16:20,402 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@369dc600)
+31 Mar 2023 02:16:35,773 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:16:35,774 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:16:35,774 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:16:41,081 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:16:41,082 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:16:41,082 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:17:05,017 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:17:05,018 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:17:05,019 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:29:54,998 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:29:55,006 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:29:55,007 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:29:55,007 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+31 Mar 2023 02:29:55,008 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:29:55,008 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:29:55,009 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:29:55,009 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:29:55,009 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:29:55,155 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2197e96a)
+31 Mar 2023 02:29:55,161 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+31 Mar 2023 02:29:55,211 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:29:55,211 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:29:55,211 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:29:55,212 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:29:55,212 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:29:55,213 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40590664)
+31 Mar 2023 02:30:15,694 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:30:15,695 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:30:15,696 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:30:15,732 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:30:15,733 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:30:15,733 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:30:15,734 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:30:15,734 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:30:15,737 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2868ca5f)
+31 Mar 2023 02:30:49,217 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:30:49,218 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:30:49,218 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:30:49,246 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:30:49,247 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:30:49,248 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:30:49,249 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:30:49,249 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:30:49,252 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b9e6bf0)
+31 Mar 2023 02:42:10,988 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:42:10,994 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:42:10,995 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:42:10,997 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+31 Mar 2023 02:42:10,997 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:42:10,997 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:42:10,998 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:42:10,998 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:42:10,998 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:42:11,167 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@daf3b8)
+31 Mar 2023 02:42:11,175 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+31 Mar 2023 02:42:11,273 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:42:11,273 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:42:11,273 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:42:11,274 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:42:11,274 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:42:11,276 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@44bb6bb5)
+31 Mar 2023 02:42:23,081 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:42:23,083 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:42:23,083 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:42:23,120 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:42:23,121 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:42:23,121 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:42:23,122 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:42:23,124 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:42:23,125 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4efd26a2)
+31 Mar 2023 02:43:39,904 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:43:39,909 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:43:39,910 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:43:39,911 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+31 Mar 2023 02:43:39,911 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:43:39,911 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:43:39,911 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:43:39,912 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:43:39,912 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:43:40,083 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@daf3b8)
+31 Mar 2023 02:43:40,088 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+31 Mar 2023 02:43:40,175 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:43:40,176 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:43:40,176 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:43:40,176 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:43:40,177 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:43:40,177 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@44bb6bb5)
+31 Mar 2023 02:43:55,876 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:43:55,877 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:43:55,878 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:43:55,918 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:43:55,918 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:43:55,919 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:43:55,920 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:43:55,920 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:43:55,923 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75e5588e)
+31 Mar 2023 02:44:22,316 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:44:22,317 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:44:22,318 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:44:22,319 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:44:22,321 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:44:22,322 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b47c443)
+31 Mar 2023 02:44:22,328 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:44:22,329 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:44:22,330 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:44:22,330 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:44:22,331 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:44:22,334 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b96ec48)
+31 Mar 2023 02:44:22,370 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:44:22,371 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:44:22,371 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:44:22,372 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:44:22,374 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:44:22,377 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32ef4fd6)
+31 Mar 2023 02:44:22,394 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:44:22,394 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:44:22,395 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:44:22,396 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:44:22,397 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:44:22,400 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@271ff014)
+31 Mar 2023 02:44:22,404 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:44:22,405 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:44:22,406 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:44:22,407 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:44:22,408 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:44:22,411 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@329014fe)
+31 Mar 2023 02:44:37,703 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+31 Mar 2023 02:44:37,704 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+31 Mar 2023 02:44:37,704 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+31 Mar 2023 02:44:37,731 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+31 Mar 2023 02:44:37,732 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+31 Mar 2023 02:44:37,734 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+31 Mar 2023 02:44:37,734 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+31 Mar 2023 02:44:37,735 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+31 Mar 2023 02:44:37,737 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7fd13348)
+03 Apr 2023 14:55:40,204 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+03 Apr 2023 14:55:40,208 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+03 Apr 2023 14:55:40,209 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+03 Apr 2023 14:55:40,212 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+03 Apr 2023 14:55:40,212 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 14:55:40,212 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 14:55:40,212 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 14:55:40,214 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 14:55:40,214 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 14:55:40,364 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f377b5c)
+03 Apr 2023 14:55:40,368 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+03 Apr 2023 14:55:40,422 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 14:55:40,423 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 14:55:40,423 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 14:55:40,424 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 14:55:40,424 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 14:55:40,425 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@11070d88)
+03 Apr 2023 14:56:05,383 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+03 Apr 2023 14:56:05,383 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+03 Apr 2023 14:56:05,384 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+03 Apr 2023 14:56:05,399 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 14:56:05,399 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 14:56:05,399 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 14:56:05,400 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 14:56:05,400 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 14:56:05,401 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77574258)
+03 Apr 2023 17:29:52,829 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+03 Apr 2023 17:29:52,832 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+03 Apr 2023 17:29:52,833 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+03 Apr 2023 17:29:52,834 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+03 Apr 2023 17:29:52,835 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:29:52,835 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:29:52,835 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:29:52,835 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:29:52,836 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:29:52,993 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3e26ca6)
+03 Apr 2023 17:29:52,995 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+03 Apr 2023 17:29:53,043 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:29:53,044 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:29:53,044 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:29:53,044 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:29:53,044 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:29:53,045 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@17c1c562)
+03 Apr 2023 17:30:05,709 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+03 Apr 2023 17:30:05,710 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+03 Apr 2023 17:30:05,711 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+03 Apr 2023 17:30:05,746 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:30:05,746 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:30:05,747 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:30:05,747 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:30:05,748 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:30:05,750 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@552bc1ff)
+03 Apr 2023 17:30:18,796 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:30:18,797 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:30:18,797 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:30:18,798 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:30:18,799 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:30:18,802 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@520f95ce)
+03 Apr 2023 17:30:18,807 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:30:18,808 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:30:18,809 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:30:18,809 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:30:18,810 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:30:18,813 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3a64bd33)
+03 Apr 2023 17:30:18,847 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:30:18,848 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:30:18,848 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:30:18,849 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:30:18,849 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:30:18,852 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5f5cc863)
+03 Apr 2023 17:30:18,862 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:30:18,863 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:30:18,863 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:30:18,864 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:30:18,864 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:30:18,865 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@71d387a3)
+03 Apr 2023 17:30:18,869 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:30:18,869 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:30:18,870 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:30:18,870 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:30:18,870 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:30:18,872 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54365e5c)
+03 Apr 2023 17:31:22,947 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+03 Apr 2023 17:31:22,951 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+03 Apr 2023 17:31:22,952 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+03 Apr 2023 17:31:22,954 TRACE com.example.java_mpp_bun.repository.UserRepository 50 findAll - Enter gettig find all
+03 Apr 2023 17:31:22,954 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:31:22,954 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:31:22,954 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:31:22,955 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:31:22,955 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:31:23,108 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f377b5c)
+03 Apr 2023 17:31:23,114 TRACE com.example.java_mpp_bun.repository.UserRepository 71 findAll - Exit with([User{username='jndsch', password='jschhs'}, User{username='Andra', password='1'}])
+03 Apr 2023 17:31:23,177 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:31:23,177 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:31:23,178 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:31:23,178 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:31:23,178 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:31:23,179 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@11070d88)
+03 Apr 2023 17:31:36,544 INFO  com.example.java_mpp_bun.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db} 
+03 Apr 2023 17:31:36,545 INFO  com.example.java_mpp_bun.repository.ZborRepository 20 <init> - bvbdfv
+03 Apr 2023 17:31:36,546 INFO  com.example.java_mpp_bun.repository.BiletRepository 25 <init> - cdbc
+03 Apr 2023 17:31:36,583 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:31:36,584 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:31:36,584 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:31:36,585 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:31:36,585 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:31:36,587 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@13e5ff7b)
+03 Apr 2023 17:31:47,265 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:31:47,266 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:31:47,266 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:31:47,267 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:31:47,268 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:31:47,271 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ee767a5)
+03 Apr 2023 17:31:47,275 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:31:47,276 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:31:47,277 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:31:47,278 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:31:47,279 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:31:47,281 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b47c443)
+03 Apr 2023 17:31:47,316 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:31:47,317 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:31:47,318 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:31:47,319 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:31:47,319 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:31:47,323 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5e097263)
+03 Apr 2023 17:31:47,339 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:31:47,340 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:31:47,341 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:31:47,342 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:31:47,343 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:31:47,347 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b96ec48)
+03 Apr 2023 17:31:47,351 TRACE com.example.java_mpp_bun.utils.JdbcUtils 48 getConnection - Enter
+03 Apr 2023 17:31:47,352 TRACE com.example.java_mpp_bun.utils.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2023 17:31:47,353 INFO  com.example.java_mpp_bun.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\40771\RiderProjects\Proiect1_MPP\zboruri.db
+03 Apr 2023 17:31:47,354 INFO  com.example.java_mpp_bun.utils.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2023 17:31:47,355 INFO  com.example.java_mpp_bun.utils.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2023 17:31:47,358 TRACE com.example.java_mpp_bun.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32ef4fd6)

@@ -1,0 +1,9 @@
+2023-04-03 17:32:56,580 INFO [AgenciesRepository]: Creating UserRepository 
+2023-04-03 17:32:56,595 INFO [AgenciesRepository]: Creating ZborRepository 
+2023-04-03 17:32:56,596 INFO [AgenciesRepository]: Creating BiletRepository 
+2023-04-03 17:32:56,596 INFO [AgenciesRepository]: Creating BiletTuristRepository 
+2023-04-03 17:32:56,599 INFO [Form1]: CreatingLoginPage
+2023-04-03 17:33:09,571 INFO [Form2]: CreatingFlightsPage
+2023-04-03 17:33:21,049 INFO [Form3]: CreatingBuyFlightsPage
+2023-04-03 17:33:31,679 INFO [AgenciesRepository]: Entering ... with value Incercare.domain.Bilet
+2023-04-03 17:33:31,693 INFO [AgenciesRepository]: Saved Incercare.domain.Bilet instances
