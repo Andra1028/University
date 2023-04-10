@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialnetworkgui.controller.UserPage">
+   <children>
+      <Text fx:id="usernameField" layoutX="277.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TableView fx:id="friendshipsTable" layoutX="311.0" layoutY="112.0" prefHeight="200.0" prefWidth="251.0">
+         <columns>
+            <TableColumn fx:id="firstnameColumn" prefWidth="94.33331298828125" text="Categorie" />
+            <TableColumn fx:id="lastnameColumn" prefWidth="96.66668701171875" text="Produs" />
+            <TableColumn prefWidth="59.33331298828125" text="Pret" />
+         </columns>
+      </TableView>
+      <Button layoutX="411.0" layoutY="327.0" mnemonicParsing="false" text="Sterge" />
+      <Label layoutX="36.0" layoutY="152.0" text="Categorie" />
+      <Label layoutX="40.0" layoutY="192.0" text="Produs" />
+      <Label layoutX="40.0" layoutY="232.0" text="Pret" />
+      <TextField layoutX="104.0" layoutY="148.0" />
+      <TextField layoutX="104.0" layoutY="188.0" />
+      <TextField layoutX="104.0" layoutY="228.0" />
+      <Button layoutX="139.0" layoutY="287.0" mnemonicParsing="false" text="Adauga" />
+   </children>
+</AnchorPane>
